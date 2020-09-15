@@ -1,0 +1,14 @@
+{
+    "name": "iframe-micro-frontends",
+    "version": "1.0.0",
+    "description": "micro-frontends using iframe approach",
+    "scripts": {
+        "install": "node install-all"
+    },
+    "repository": {
+        "type": "git",
+        "url": " "
+    },
+    "author": "Turki Alotaibi",
+    "license": "ISC"
+}

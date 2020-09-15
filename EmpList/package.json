@@ -1,0 +1,17 @@
+{
+    "name": "emplist",
+    "version": "1.0.0",
+    "description": "Employee List Micro-Frontend",
+    "main": " ",
+    "dependencies": {
+        "bootstrap": "^4.5.2",
+        "jquery": "^3.5.1",
+        "popper.js": "^1.16.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": " "
+    },
+    "author": "Turki Alotaibi",
+    "license": "ISC"
+}
