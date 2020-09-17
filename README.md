@@ -14,16 +14,18 @@ Each micro-frontend is hosted independently.
 
 
 ## Demo
-The solution provided has 5 micro-frontends:
+The solution provided has 5 micro-frontends and a parent application:
 
 | Component | URL |
 | ------ | ------ |
+| Parent | http://localhost:5000/ |
 | Header | http://localhost:5001/ |
+| Footer | http://localhost:5002/ |
 | EmpForm | http://localhost:5003/ |
 | EmpList | http://localhost:5004/ |
 | EmpDetails | http://localhost:5005/ |
-| Footer | http://localhost:5002/ |
-| Parent | http://localhost:5000/ |
+
+
 
 
 Each micro-frontend will be served on its independent server.  
