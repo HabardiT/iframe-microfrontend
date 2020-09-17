@@ -14,8 +14,8 @@ Each micro-frontend is hosted independently.
 
 
 ## Demo
-The solution provided has 5 micro-frontends and a parent application:
-
+This demo does not include Micro-Services.  
+The solution provided has 6 micro-frontends:
 | Component | URL |
 | ------ | ------ |
 | Parent | http://localhost:5000/ |
@@ -25,11 +25,12 @@ The solution provided has 5 micro-frontends and a parent application:
 | EmpList | http://localhost:5004/ |
 | EmpDetails | http://localhost:5005/ |
 
-
-
-
-Each micro-frontend will be served on its independent server.  
-It also provides a **parent** web application (*port:5000*), that will be used to inject a micro-frontend by using the `<iframe>` element.  
+- Each micro-frontend will be served on its independent server.  
+- Each micro-frontend will be injected into the **Parent**.
+- Communications between micro-frontends will be done through the **Parent**, using `window.postMessage()`
+  - Upon submission in **EmpForm**, an event will be fired through **Parent** targetting **EmpList** to inject the new employee to employee list.
+  - Upon selecting an employee in **EmpList** an event will be fired through **Parent** targetting **EmpDetails** to display selected employee details.
+  - Each event fired will specify the target micro-frontend, for the parent to forward it.
   
 This solution is developed using [Visual Studio Code](https://code.visualstudio.com/), and configured to have each application served on its own port using [ritwickdey.LiveServer Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
