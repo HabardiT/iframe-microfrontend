@@ -13,13 +13,18 @@ The solution provided is using the iframe approach to implement micro-frontends 
 Each micro-frontend is hosted independently.
 
 
-## Local Set-up
+## Demo
 The solution provided has 5 micro-frontends:
-1. Header &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~*port:5001*
-2. EmpForm &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~*port:5003*
-3. EmpList &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~*port:5004*
-4. EmpDetails &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~*port:5005*
-5. Footer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~*port:5002*
+
+| Component | URL |
+| ------ | ------ |
+| Header | http://localhost:5001/ |
+| EmpForm | http://localhost:5003/ |
+| EmpList | http://localhost:5004/ |
+| EmpDetails | http://localhost:5005/ |
+| Footer | http://localhost:5002/ |
+| Parent | http://localhost:5000/ |
+
 
 Each micro-frontend will be served on its independent server.  
 It also provides a **parent** web application (*port:5000*), that will be used to inject a micro-frontend by using the `<iframe>` element.  
