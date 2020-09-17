@@ -1,7 +1,7 @@
 # Micro-Frontends (In Progress)
 ## What are micro-frontends?
-micro-frontends are independent wep applications, developed by independent teams, hosted in their own containers.  
-micro-frontends are essentially derived from the concept of micro-services. 
+Micro-frontends are independent wep applications, developed by independent teams, hosted in their own containers.  
+Micro-frontends are essentially derived from the concept of micro-services. 
 
 <<Diagram>>
 
@@ -21,10 +21,10 @@ The solution provided has 5 micro-frontends:
 4. EmpDetails &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~*port:5005*
 5. Footer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;~*port:5002*
 
-each micro-frontend will be served on its independent server. 
-it also provides a **parent** web application (*port:5000*), that will be used to inject a micro-frontend by using the `<iframe>` element.
-
-this solution is developed using [Visual Studio Code](https://code.visualstudio.com/), and configured to have each application served on its own port using [ritwickdey.LiveServer Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+Each micro-frontend will be served on its independent server.  
+It also provides a **parent** web application (*port:5000*), that will be used to inject a micro-frontend by using the `<iframe>` element.  
+  
+This solution is developed using [Visual Studio Code](https://code.visualstudio.com/), and configured to have each application served on its own port using [ritwickdey.LiveServer Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 ### Prerequisites
 - [Visual Studio Code](https://code.visualstudio.com/)
