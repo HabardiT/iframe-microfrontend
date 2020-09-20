@@ -1,4 +1,4 @@
-# Micro-Frontends (In Progress)
+# Micro-Frontends
 ## What are micro-frontends?
 Micro-frontends are independent wep applications, developed by independent teams, hosted in their own containers.  
 Micro-frontends are essentially derived from the concept of micro-services. 
