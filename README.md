@@ -56,7 +56,7 @@ The following are pros and cons of micro-frontends using iframe approach
   
 - Alignment Issues(Interactivity & Responsiveness) ! a module's UI design might look seamless when navigated to on its own server. but when injected into the main application, a lot of workarounds will need to be introduced to have it look half-decent on the injected page. 
 
-- Popups/Modals/Dialuge/Dropdowns will need to be implemented on the injected page rather than the module itself, due to **iframe** limitations, which breaks the separtion of code and independency in these situations.
+- Popups/Modals/Dialogues/Dropdowns will need to be implemented on the injected page rather than the module itself, due to **iframe** limitations, which breaks the separtion of code and independency in these situations.
 ![Dropdown](https://i.imgur.com/4Tzkvld.png)
   
 ## Conclusion
