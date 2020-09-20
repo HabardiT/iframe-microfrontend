@@ -61,7 +61,7 @@ The following are pros and cons of micro-frontends using iframe approach
   
 ## Conclusion
 Micro-Frontends has great potential in solving enterprise web applications issues when it comes to scalability and maintenance. 
-Based on this demo, and my personal analysis, I believe that iframe is not a suitable approach to micro-frontend *currently*.  
+Based on this demo, and my personal analysis, I believe that iframe is **not** a suitable approach to micro-frontend *currently*.  
 ### Other Approaches
 - [Single SPA](https://single-spa.js.org/)
 - [Frint](https://frint.js.org/)
