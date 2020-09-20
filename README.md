@@ -64,6 +64,13 @@ Micro-Frontends has great potential in solving enterprise web applications issue
 Based on this demo, and my personal analysis, I believe that iframe is **not** a suitable approach to micro-frontend *currently*.  
 ### Other Approaches
 - [Single SPA](https://single-spa.js.org/)
-- [Frint](https://frint.js.org/)
+- [FrintJS](https://frint.js.org/)
 - [Web Components](https://www.webcomponents.org/introduction) *not a framework, but a browser feature, it might be the future to micro-frontends*
 - [Tailor](https://github.com/zalando/tailor)
+- [qiankun（乾坤）](https://github.com/umijs/qiankun)
+- [Luigi](https://luigi-project.io/)
+- [PuzzleJs](https://github.com/puzzle-js/puzzle-js)
+- [icestark](https://github.com/ice-lab/icestark)
+- [Piral](https://piral.io/)
+- [mooa](https://github.com/phodal/mooa)
+- [ngx-planet](https://github.com/worktile/ngx-planet)
